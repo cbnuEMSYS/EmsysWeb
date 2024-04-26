@@ -15,10 +15,10 @@ Emsys Main Web Development Repository
 - Email : woodyoukrd@gmail.com
 #### 이나연
 - Email : nayeon2957@naver.com
-#### 신동연
-- Email : sdy20052020@gmail.com
 ### BE
 #### 김민석
 - Email : semteul32@gmail.com
 #### 이용준
 - Email : usingjun99@gmail.com
+#### 신동연
+- Email : sdy20052020@gmail.com
