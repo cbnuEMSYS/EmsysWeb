@@ -10,7 +10,7 @@ Emsys Main Web Development Repository
 - Email : hss598876@gmail.com
 ### FE
 #### 김민성
-- Email : rjajehno2@naver.com
+- Email : rjaehno2@naver.com
 #### 이대원
 - Email : woodyoukrd@gmail.com
 #### 이나연
