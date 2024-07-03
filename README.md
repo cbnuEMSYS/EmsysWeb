@@ -22,5 +22,5 @@ Emsys Main Web Development Repository
 - Email : usingjun99@gmail.com
 #### 신동연
 - Email : sdy20052020@gmail.com
-- Sido Try
-이대원asdf
+#### 이동현 
+- Email : gd091330@gmail.com
