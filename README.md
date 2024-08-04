@@ -6,14 +6,14 @@ Emsys Main Web Development Repository
 
 ## Members
 ### PM
-#### 황재찬
+#### 황재찬 asdf 
 - Email : hss598876@gmail.com
 ### FE
 #### 김민성
 - Email : rjaehno2@naver.com
 #### 이대원
 - Email : woodyoukrd@gmail.com
-#### 이나연
+#### 이나연 
 - Email : nayeon2957@naver.com
 ### BE
 #### 김민석
