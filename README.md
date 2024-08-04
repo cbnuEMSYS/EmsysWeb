@@ -21,7 +21,7 @@ Emsys Main Web Development Repository
 - Role : DB Design
 #### 이용준
 - Email : usingjun99@gmail.com
-#### 신동연
+#### 신동연 asdf
 - Email : sdy20052020@gmail.com
 - Role : implementation
 #### 이동현 
