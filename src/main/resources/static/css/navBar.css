@@ -3,6 +3,34 @@ body{
 }
 
 .navBar{
-    border-bottom:1px;
-    
+    border-bottom:10px;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.logoImg{
+    width : 100px;
+    height : 100px;
+    border-radius:30px;
+}
+
+.navContainer{
+    height:100px;
+    margin:10px;
+    min-width:30%;
+    text-align:center;
+}
+
+.navItem{
+    height:100px;
+    margin:auto;
+    display:flex;
+    text-align:center;
+    align-items: center;
 }
