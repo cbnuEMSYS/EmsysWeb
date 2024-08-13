@@ -1,7 +1,7 @@
 # EmsysWeb
 Emsys Main Web Development Repository
 ## 사용 소스
-- Spring
+- Django
 - MySQL
 
 ## Members
