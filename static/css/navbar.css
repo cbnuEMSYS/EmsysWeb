@@ -15,6 +15,10 @@ body{
     width:10%;
 }
 
+.icon{
+    width:3%;
+}
+
 .nav-item{
     font-size:22px;
 }
