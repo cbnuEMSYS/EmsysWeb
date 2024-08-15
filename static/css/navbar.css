@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'goorm-sans-bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    margin:0px;
+    font-family: 'goorm-sans-bold';
+    background-color:#f5f4f1;
+}
+
+.logo{
+    width:10%;
+}
+
+.nav-item{
+    font-size:22px;
+}
