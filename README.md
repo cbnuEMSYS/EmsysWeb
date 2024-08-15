@@ -3,6 +3,7 @@ Emsys Main Web Development Repository
 ## 사용 소스
 - Django
 - MySQL
+- Bootstrap
 
 ## Members
 ### PM
@@ -25,5 +26,3 @@ Emsys Main Web Development Repository
 #### 이동현 
 - Email : gd091330@gmail.com
 - Role : implementation
-
-## 사용 기술
