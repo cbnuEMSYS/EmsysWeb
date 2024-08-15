@@ -19,8 +19,6 @@ Emsys Main Web Development Repository
 #### 김민석
 - Email : semteul32@gmail.com
 - Role : DB Design
-#### 이용준
-- Email : usingjun99@gmail.com
 #### 신동연
 - Email : sdy20052020@gmail.com
 - Role : implementation
