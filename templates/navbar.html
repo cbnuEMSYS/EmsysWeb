@@ -12,7 +12,9 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-300">
         <div class="container-fluid">
-            <img class = "navbar-brand logo" src="{% static 'img/black-emsys-logo.png'%}">
+            <a class = "imglink" href ="{% url 'main:mainpage' %}">
+                <img class = "navbar-brand logo"  src="{% static 'img/black-emsys-logo.png'%}">
+            </a>
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">소개</a>
@@ -30,7 +32,9 @@
                     <a class = "nav-link" href="#">황재찬님 환영합니다.</a>
                 </li>
             </ul>
-            <img class = "icon" src = "{% static 'img/logout-icon.png' %}" href="{% url 'account:logout' %}">
+            <a class = "imglink" href="{% url 'account:logout' %}">
+                <img class = "icon" src = "{% static 'img/logout-icon.png' %}" >
+            </a>
             {% else %}
             <ul class="navbar-nav">
                 <li class ="nav-item">
