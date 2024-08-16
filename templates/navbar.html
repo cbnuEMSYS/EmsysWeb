@@ -5,11 +5,12 @@
     <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href = "{% static 'css/colors.css' %}">
     <link rel="stylesheet" href = "{% static 'css/navbar.css' %}">
+    <link rel="stylesheet" href = "{% static 'css/main.css' %}">
     <title>EMSYS</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-300">
+    <nav class="navbar navbar-expand-lg bg-100" style = "border-bottom: black solid 1px;">
         <div class="container-fluid">
             <a class = "imglink" href ="{% url 'main:mainpage' %}">
                 <img class = "navbar-brand logo"  src="{% static 'img/black-emsys-logo.png'%}">
