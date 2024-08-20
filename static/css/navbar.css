@@ -22,3 +22,12 @@ body{
 .nav-item{
     font-size:22px;
 }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: black solid 1px;
+    z-index:10;
+}
