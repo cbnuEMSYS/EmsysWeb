@@ -1,13 +1,18 @@
 {% extends 'navbar.html' %}
 {% load static %}
 {% block content %}
-<div class="container">
-    <div class = 'introduce-board' style = "background-image: url('{% static 'img/letsgo.jpg' %}');">
+<div class="imgcontainer">
+    <div class = 'introduce-board' id="introduceImage" style = "background-image: url('{% static 'img/letsgo.jpg' %}');"></div>
+    <div class = 'introduce-board' id="introduceImage" style = "background-image: url('{% static 'img/letsgo.jpg' %}');"></div>
+    
+    <div class = 'main-text-box'>
+        <p class = 'main-text'>
+            충북대학교 학술 동아리
+        </p>    
+        <p class = 'main-text'>
+            EMSYS
+        </p>
     </div>
-    <p class = 'main-text'>
-        충북대학교 학술 동아리<br>
-        EMSYS
-    </p> 
 </div>
 <div class = 'second-content'>
     <div class = 'miniboard bg-200'>
@@ -162,4 +167,5 @@
         </div>
     </div>
 </div>
+<script src = "{% static 'js/mainpage.js' %}"></script>
 {% endblock %}

@@ -1,6 +1,9 @@
 .second-content{
+    position:relative;
     display:flex;
-
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;
 }
 
 .miniboard{
@@ -11,9 +14,6 @@
     box-shadow: inset 1px 3px 3px 1px;
 }
 
-.miniboard-content-box{
-}
-
 .miniboard-item{
     display:flex;
 }
@@ -22,35 +22,47 @@
     margin:3px;
 }
 
-.container{
+.imgcontainer{
     position: relative;
     width:100%;
-    height:600px;
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items:center;
     overflow:hidden;
-
+    margin:0px;
 }
 
 .introduce-board{
     position:absolute;
     width:100%;
-    height: 600px;
+    height: 100%;
     filter: blur(3px);
+    background-size:cover;
     background-position: center;
     top:0;
     left:0;
     z-index:1;
     box-sizing: border-box;
+    transition: opacity 1s ease-in-out;
+    opacity:0;
 }
 
-.main-text{
+.active{
+    opacity:1;
+}
+
+.main-text-box{
     background-color: rgba(0,0,0, 0.3);
     padding:20px;
     position: relative;
     z-index:2;
+    border-radius:50px;
+    text-align:center;
+}
+
+.main-text{
+    margin:0px;
     font-size: 32px;
     color:white;
-    border-radius:50px;
 }
