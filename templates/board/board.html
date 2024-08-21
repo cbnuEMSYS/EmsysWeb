@@ -1,6 +1,55 @@
 {% extends 'navbar.html' %}
 {% load static %}
 {% block content %}
-<!-- 일단 기능 구현 하고 classs로 묶는 건 나중에 -->
+<!-- 일단 기능 구현 하고 class로 묶는 건 나중에 -->
+<!-- https://cha4ser.tistory.com/entry/Web-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B003Flask%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9D%B4%EB%8F%99%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%8E%98%EC%9D%B4%EC%A7%80 -->
+<div class="container">
+    <br>
+    <h1 class="test-center">### 게시판</h1>
+    <br>
+    <table class="table table-hover table-striped text-center" style="border: 1px solid;">
+        <!-- table-striped: 홀수, 짝수행 마다 색을 다르게 함 -->
+        <thred>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>글쓴이</th>
+                <th>조회수</th>
+            </tr>
+        </thred>
+        <tobody>
+            <tr>
+                <td>1</td>
+                <td>Title_1</td>
+                <td>콩</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Title_2</td>
+                <td>캥</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Title_3</td>
+                <td>이</td>
+                <td>1</td>
+            </tr>
+        </tobody>
+    </table>
 
+    <hr>
+    <div>
+        <ul class="pagination justify-content-center">
+            <li><a href="#" style="margin-right:5px;" class="text-secondary"></a>1</li>
+            <li><a href="#" style="margin-right:5px;" class="text-secondary"></a>2</li>
+            <li><a href="#" style="margin-right:5px;" class="text-secondary"></a>3</li>
+            <li><a href="#" style="margin-right:5px;" class="text-secondary"></a>4</li>
+            <li><a href="#" style="margin-right:5px;" class="text-secondary"></a>5</li>
+        </ul>
+    </div>
+
+    <a class="btn btn-outline=info flat-right">글쓰기</a>
+</div>
 {% endblock %}
