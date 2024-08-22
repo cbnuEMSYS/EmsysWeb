@@ -1,4 +1,71 @@
 {% extends 'navbar.html' %}
 {% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/register.css' %}?v=1.0">
+
+<div class="register-form">
+    <h1>REGISTER</h1>
+    <hr class="title-line">
+    <div class="input-box">
+        <i class='bx bxs-user'></i>
+        <input type="text" placeholder="아이디" required>
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="password" placeholder="비밀번호" required>
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="password" placeholder="비밀번호 확인" required>
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="text" placeholder="이름" required>
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="text" placeholder="학과" required>
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="text" placeholder="학번" required>
+    </div>
+    <div class="input-box gender-box">
+        <i class='bx bxs-lock'></i>
+        <input type="text" placeholder="성별" required id="gender-input" readonly>
+        <div class="gender-options" id="gender-options">
+            <div class="gender-option" data-value="male">남성</div>
+            <div class="gender-option" data-value="female">여성</div>
+        </div>
+    </div>
+    <hr class="bottom-line">
+    <button class="register-button">REGISTER</button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const genderInput = document.getElementById('gender-input');
+        const genderOptions = document.getElementById('gender-options');
+
+        genderInput.addEventListener('click', function(event) {
+            event.stopPropagation();
+            genderOptions.classList.toggle('show');
+        });
+
+        document.querySelectorAll('.gender-option').forEach(option => {
+            option.addEventListener('click', function() {
+                genderInput.value = this.textContent;
+                genderOptions.classList.remove('show');
+            });
+        });
+
+        document.addEventListener('click', function() {
+            if (genderOptions.classList.contains('show')) {
+                genderOptions.classList.remove('show');
+            }
+        });
+    });
+</script>
 
 {% endblock %}
