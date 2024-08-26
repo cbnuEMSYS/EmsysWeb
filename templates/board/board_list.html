@@ -5,12 +5,12 @@
 <!-- https://cha4ser.tistory.com/entry/Web-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B003Flask%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9D%B4%EB%8F%99%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%8E%98%EC%9D%B4%EC%A7%80 -->
 <!-- url설정 같은건 다음 페이지 참고 -->
 <!-- https://velog.io/@charmull/Django-%EC%97%B0%EC%8A%B5-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0-8-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%8F%99%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EB%8B%AC -->
-<div class="container">
+<!-- <div class="container">
     <br>
     <h1 class="test-center">### 게시판</h1>
     <br>
     <table class="table table-hover table-striped text-center" style="border: 1px solid;">
-        <!-- table-striped: 홀수, 짝수행 마다 색을 다르게 함 -->
+        table-striped: 홀수, 짝수행 마다 색을 다르게 함
         <thred>
             <tr>
                 <th>번호</th>
@@ -53,5 +53,26 @@
     </div>
 
     <a class="btn btn-outline=info flat-right">글쓰기</a>
-</div>
+</div> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>{{ title }}</h2>
+    <br><br><br>
+
+{% if board_list %}
+    <ul>
+        {% for data in board_list %}
+        <li>{{ data.no }} : {{ data.title }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h2>no board list</h2>
+{% endif %}
+</body>
+</html>
 {% endblock %}
