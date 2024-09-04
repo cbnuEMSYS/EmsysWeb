@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f4f1;
+}
+
+.login-form {
+    width: 50%;
+    color: #313d44;
+    border-radius: 10px;
+    padding:40px 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.login-form h1 {
+    color:#313d44;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00668c;
+}
+
+.login-form .input-box {
+    position:relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border: 2px solid #00668c;
+    border-radius:10px;
+    padding :20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color:#313d44;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login-form .forgot {
+    display:flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    margin: 5px 0 15px;
+    border-top: 2px solid #00668c;
+}
+
+.forgot a {
+    margin:20px 5px 0 0;
+    color:#1d1c1c;
+    text-decoration: none;
+}
+
+.forgot a:hover{
+    color:#71c4ef;
+    text-decoration: underline;
+}
+
+.login-form .btn{
+    width:100%;
+    height:55px;
+    background:#00668c;
+    border:none;
+    outline:none;
+    border: 2px solid #00668c;
+    border-radius:10px;
+    box-shadow:0 0 2px;
+    cursor:pointer;
+    color:#f5f4f1;
+}
+
+.login-form .btn:active{
+    width:100%;
+    height:55px;
+    background:#f5f4f1;
+    border: 2px solid #00668c;
+    color:#00668c;
+}
+
+.register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 40px 0 15px;
+}
+
+.register-link p{
+    color:#3b3c3d;
+    text-decoration: none;
+}
+
+.register-link a{
+    color:#1d1c1c;
+    text-decoration: none;
+}
+
+.register-link a:hover{
+    color:#71c4ef;
+    text-decoration: underline;
+}
